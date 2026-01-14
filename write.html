@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>온라인 흡연장 - 글 작성</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">온라인 흡연장</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html#news">오늘의 컨텐츠</a></li>
+                <li><a href="board.html">커뮤니티</a></li>
+                <li><a href="index.html#music">음악</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="write-page">
+            <h2>새 글 작성</h2>
+            <form id="post-form">
+                <input type="text" id="title-input" placeholder="제목" required>
+                <br>
+                <input type="text" id="author-input" placeholder="작성자" required>
+                <br>
+                <textarea id="content-input" placeholder="내용을 입력하세요." required></textarea>
+                <br>
+                <button type="submit">등록</button>
+                <button type="button" id="cancel-write-btn">게시판으로 돌아가기</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 온라인 흡연장</p>
+    </footer>
+
+    <script src="js/write.js"></script>
+</body>
+</html>
